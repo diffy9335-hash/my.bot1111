@@ -1,0 +1,17 @@
+RDG v2.3 — Team crests and markets
+
+Changes:
+- Uses club crest URLs returned by football-data.org; synced on the next football API refresh.
+- Match page market groups: result, totals 1.5/2.5/3.5, both teams to score, +/-1 integer handicaps, team totals 1.5.
+- New picks validated and settled on server. Exact draw on integer handicap means refund (void leg).
+- League selector displayed only on the Matches page; no selector on History, Top, Profile, etc.
+- Virtual game odds only: NOT real bookmaker odds.
+
+Install:
+1. Keep your .env, football.sqlite3 and avatars folder safe. Do NOT delete them.
+2. Replace project files using this archive.
+3. pip install -r requirements.txt
+4. python run.py
+5. Reload Telegram Mini App. For club crests, API must return 'crest' and a successful football sync must complete.
+
+Automated checks: pytest 50 tests passed; JS syntax validated.

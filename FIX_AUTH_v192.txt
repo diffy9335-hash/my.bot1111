@@ -1,0 +1,1 @@
+RDG v1.9.2: Fixed Telegram initData HMAC validation when signature parameter is present. Bot-token HMAC excludes only hash, not signature. Replace app/core.py, restart python run.py. Keep .env and database.

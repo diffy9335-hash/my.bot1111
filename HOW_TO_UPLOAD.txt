@@ -1,0 +1,1 @@
+RDG v3.2 for Bothost. ZIP root includes run.py, app/, static/, requirements.txt, Dockerfile, bothost.json. In Bothost use Upload from archive; main file run.py; Dockerfile stack if possible; after deploy check build log RDG import check: OK. This package does not include .env, databases, or tokens. Configure credentials and URL through project environment variables.

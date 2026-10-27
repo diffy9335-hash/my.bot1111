@@ -1,0 +1,3 @@
+Bothost: select Dockerfile build, project root contains app/ run.py Dockerfile requirements.txt static/
+Set secrets in Bothost variables, not archive. Set DEV_AUTH=false and PUBLIC_URL to actual HTTPS URL.
+Preserve live database/avatar files; do not overwrite with empty ones.
